@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-24T23:27:04 BDT" name="Default suite" finished-at="2024-01-24T23:27:19 BDT" duration-ms="15041">
+  <suite started-at="2024-01-24T23:52:51 BDT" name="Suite" finished-at="2024-01-24T23:54:19 BDT" duration-ms="88926">
     <groups>
     </groups>
-    <test started-at="2024-01-24T23:27:04 BDT" name="Default test" finished-at="2024-01-24T23:27:19 BDT" duration-ms="15041">
+    <test started-at="2024-01-24T23:52:51 BDT" name="Test" finished-at="2024-01-24T23:54:19 BDT" duration-ms="88926">
+      <class name="testCase.OtaPortalMenuTestCase">
+        <test-method signature="ota()[pri:0, instance:testCase.OtaPortalMenuTestCase@942a29c]" started-at="2024-01-24T23:53:27 BDT" name="ota" finished-at="2024-01-24T23:53:37 BDT" duration-ms="9172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ota -->
+      </class> <!-- testCase.OtaPortalMenuTestCase -->
+      <class name="testCase.BlogMenuTestCase">
+        <test-method signature="blog()[pri:0, instance:testCase.BlogMenuTestCase@60bd273d]" started-at="2024-01-24T23:54:11 BDT" name="blog" finished-at="2024-01-24T23:54:19 BDT" duration-ms="8834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blog -->
+      </class> <!-- testCase.BlogMenuTestCase -->
+      <class name="testCase.ContractUsMenuTestCase">
+        <test-method signature="contract()[pri:0, instance:testCase.ContractUsMenuTestCase@3527942a]" started-at="2024-01-24T23:53:13 BDT" name="contract" finished-at="2024-01-24T23:53:27 BDT" duration-ms="14559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contract -->
+      </class> <!-- testCase.ContractUsMenuTestCase -->
+      <class name="testCase.HomeMenuTestCase">
+        <test-method signature="homeClick()[pri:0, instance:testCase.HomeMenuTestCase@534a5a98]" started-at="2024-01-24T23:53:54 BDT" name="homeClick" finished-at="2024-01-24T23:54:02 BDT" duration-ms="8055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeClick -->
+      </class> <!-- testCase.HomeMenuTestCase -->
       <class name="testCase.ConsultancyMenu">
-        <test-method signature="myConsultancy()[pri:0, instance:testCase.ConsultancyMenu@61001b64]" started-at="2024-01-24T23:27:04 BDT" name="myConsultancy" finished-at="2024-01-24T23:27:19 BDT" duration-ms="14978" status="PASS">
+        <test-method signature="myConsultancy()[pri:0, instance:testCase.ConsultancyMenu@3f6f6701]" started-at="2024-01-24T23:53:03 BDT" name="myConsultancy" finished-at="2024-01-24T23:53:13 BDT" duration-ms="9416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myConsultancy -->
       </class> <!-- testCase.ConsultancyMenu -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCase.AboutUsMenuTestCase">
+        <test-method signature="aboutClick()[pri:0, instance:testCase.AboutUsMenuTestCase@5a45133e]" started-at="2024-01-24T23:53:46 BDT" name="aboutClick" finished-at="2024-01-24T23:53:54 BDT" duration-ms="8753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutClick -->
+      </class> <!-- testCase.AboutUsMenuTestCase -->
+      <class name="testCase.GalleryMenuTestCase">
+        <test-method signature="gallery()[pri:0, instance:testCase.GalleryMenuTestCase@1ed6388a]" started-at="2024-01-24T23:53:37 BDT" name="gallery" finished-at="2024-01-24T23:53:46 BDT" duration-ms="9060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gallery -->
+      </class> <!-- testCase.GalleryMenuTestCase -->
+      <class name="testCase.ServicesMenuTestCase">
+        <test-method signature="myservices()[pri:0, instance:testCase.ServicesMenuTestCase@4f80542f]" started-at="2024-01-24T23:54:02 BDT" name="myservices" finished-at="2024-01-24T23:54:11 BDT" duration-ms="8157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myservices -->
+      </class> <!-- testCase.ServicesMenuTestCase -->
+      <class name="testCase.ConcernTestCase">
+        <test-method signature="concern()[pri:0, instance:testCase.ConcernTestCase@d9345cd]" started-at="2024-01-24T23:52:51 BDT" name="concern" finished-at="2024-01-24T23:53:03 BDT" duration-ms="12821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- concern -->
+      </class> <!-- testCase.ConcernTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
